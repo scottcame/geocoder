@@ -4,8 +4,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-      args:
-        - POSTGRES_PASSWORD=$POSTGRES_PASSWORD
     image: geocoder
     ports:
       - $HOST_POSTGRES_PORT:5432
