@@ -14,5 +14,6 @@ RUN apt-get update \
     postgresql-10-ogr-fdw \
     postgresql-10-python3-multicorn \
   && apt-get clean \
+  && mkdir -p /usr/local/src \
   && mkdir -p /gisdata \
   && chown -R postgres:postgres /gisdata
