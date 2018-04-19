@@ -13,6 +13,8 @@ RUN apt-get update \
     postgresql-10-mysql-fdw \
     postgresql-10-ogr-fdw \
     postgresql-10-python3-multicorn \
+    unzip \
+    wger \
   && apt-get clean \
   && mkdir -p /usr/local/src \
   && mkdir -p /gisdata \
