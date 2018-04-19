@@ -1,2 +1,1 @@
-# geocoder
-A Docker image for geocoding
+docs/README.md
