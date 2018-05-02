@@ -6,9 +6,6 @@ SELECT loader_generate_script(ARRAY[
   'AK',
   'AZ',
   'AR',
-  'AA',
-  'AE',
-  'AP',
   'CA',
   'CO',
   'CT',
@@ -55,6 +52,8 @@ SELECT loader_generate_script(ARRAY[
   'WA',
   'WV',
   'WI',
-  'WY'
+  'WY',
+  'PR',
+  'UM'
 ], 'sh');
 \o
